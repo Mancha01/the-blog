@@ -9,5 +9,9 @@ export interface BlogProps{
 
 export interface AppProps{
     blogs: BlogProps[];
-    title: string;
+    title?: string;
+}
+
+export interface ViewProps{
+    blogs: BlogProps[];
 }
